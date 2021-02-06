@@ -9,4 +9,4 @@ branches:
     - master
 
 script:
-  - hello
+  - python3 hello.py
