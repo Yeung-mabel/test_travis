@@ -1,7 +1,12 @@
 language: python
+python:
+  - “3.9.1“
 
 sudo: false
 
 branches:
   only:
     - master
+
+script:
+  - pytest
